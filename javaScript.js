@@ -7,7 +7,7 @@ let m = canvas.getContext("2d")
 
 class ball {
 
-   constructor(x , y) {
+   constructor(x , y)  {
    this.baseR = 10     
    this.r = 20
    this.x = x ||Randomlocation(0 + this.r , window.innerWidth-this.r)
